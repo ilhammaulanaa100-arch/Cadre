@@ -1,0 +1,338 @@
+{
+  "measuredAt": "2026-09-30T04:54:26.485Z",
+  "host": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpuName": "Apple M2",
+    "logicalCores": 8,
+    "memoryGiB": 8,
+    "node": "v26.0.0",
+    "chrome": "Google Chrome 154.0.8037.92"
+  },
+  "rendererRelease": "0.4.0",
+  "conditions": "Next production build on loopback; cold Chromium process and profile for each job; PNG 1200x1200; output cache may warm; RSS sums descendant processes and double-counts shared pages; web server is excluded.",
+  "runs": [
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 3713,
+          "bytes": 684198,
+          "prepare": 17,
+          "serverCheck": 40,
+          "chromeStart": 2486,
+          "sceneLoad": 619,
+          "capture": 190,
+          "beforeCleanup": 3354
+        }
+      ],
+      "peakRssMiB": 1207,
+      "sampledCpuSeconds": 2.81,
+      "peakProcesses": 11,
+      "observations": 21
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 1885,
+          "bytes": 684198,
+          "prepare": 10,
+          "serverCheck": 40,
+          "chromeStart": 881,
+          "sceneLoad": 529,
+          "capture": 175,
+          "beforeCleanup": 1638
+        }
+      ],
+      "peakRssMiB": 1241,
+      "sampledCpuSeconds": 2.69,
+      "peakProcesses": 10,
+      "observations": 10
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 1673,
+          "bytes": 684198,
+          "prepare": 11,
+          "serverCheck": 34,
+          "chromeStart": 736,
+          "sceneLoad": 575,
+          "capture": 185,
+          "beforeCleanup": 1545
+        }
+      ],
+      "peakRssMiB": 1237,
+      "sampledCpuSeconds": 2.71,
+      "peakProcesses": 11,
+      "observations": 9
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 1566,
+          "bytes": 684198,
+          "prepare": 9,
+          "serverCheck": 35,
+          "chromeStart": 675,
+          "sceneLoad": 524,
+          "capture": 179,
+          "beforeCleanup": 1426
+        }
+      ],
+      "peakRssMiB": 1337,
+      "sampledCpuSeconds": 2.55,
+      "peakProcesses": 10,
+      "observations": 9
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 2368,
+          "bytes": 684198,
+          "prepare": 10,
+          "serverCheck": 36,
+          "chromeStart": 1321,
+          "sceneLoad": 512,
+          "capture": 170,
+          "beforeCleanup": 2055
+        }
+      ],
+      "peakRssMiB": 1270,
+      "sampledCpuSeconds": 2.89,
+      "peakProcesses": 10,
+      "observations": 13
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 1712,
+          "bytes": 554731,
+          "prepare": 15,
+          "serverCheck": 37,
+          "chromeStart": 711,
+          "sceneLoad": 618,
+          "capture": 180,
+          "beforeCleanup": 1563
+        }
+      ],
+      "peakRssMiB": 1248,
+      "sampledCpuSeconds": 2.74,
+      "peakProcesses": 10,
+      "observations": 10
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 1657,
+          "bytes": 554731,
+          "prepare": 16,
+          "serverCheck": 35,
+          "chromeStart": 603,
+          "sceneLoad": 651,
+          "capture": 195,
+          "beforeCleanup": 1501
+        }
+      ],
+      "peakRssMiB": 1246,
+      "sampledCpuSeconds": 2.62,
+      "peakProcesses": 10,
+      "observations": 10
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 1601,
+          "bytes": 554731,
+          "prepare": 11,
+          "serverCheck": 35,
+          "chromeStart": 642,
+          "sceneLoad": 599,
+          "capture": 173,
+          "beforeCleanup": 1461
+        }
+      ],
+      "peakRssMiB": 1295,
+      "sampledCpuSeconds": 2.74,
+      "peakProcesses": 11,
+      "observations": 9
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 1600,
+          "bytes": 554731,
+          "prepare": 11,
+          "serverCheck": 36,
+          "chromeStart": 654,
+          "sceneLoad": 600,
+          "capture": 185,
+          "beforeCleanup": 1487
+        }
+      ],
+      "peakRssMiB": 1390,
+      "sampledCpuSeconds": 2.7,
+      "peakProcesses": 10,
+      "observations": 9
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 1594,
+          "bytes": 554731,
+          "prepare": 11,
+          "serverCheck": 36,
+          "chromeStart": 649,
+          "sceneLoad": 598,
+          "capture": 178,
+          "beforeCleanup": 1474
+        }
+      ],
+      "peakRssMiB": 1372,
+      "sampledCpuSeconds": 2.79,
+      "peakProcesses": 10,
+      "observations": 9
+    },
+    {
+      "kinds": [
+        "single",
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 2429,
+          "bytes": 684198,
+          "prepare": 7,
+          "serverCheck": 83,
+          "chromeStart": 1283,
+          "sceneLoad": 685,
+          "capture": 196,
+          "beforeCleanup": 2256
+        },
+        {
+          "kind": "duo",
+          "wallMs": 2548,
+          "bytes": 554731,
+          "prepare": 12,
+          "serverCheck": 100,
+          "chromeStart": 1392,
+          "sceneLoad": 741,
+          "capture": 183,
+          "beforeCleanup": 2428
+        }
+      ],
+      "peakRssMiB": 2332,
+      "sampledCpuSeconds": 6.61,
+      "peakProcesses": 20,
+      "observations": 12
+    },
+    {
+      "kinds": [
+        "single",
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 2573,
+          "bytes": 684198,
+          "prepare": 11,
+          "serverCheck": 43,
+          "chromeStart": 1540,
+          "sceneLoad": 516,
+          "capture": 190,
+          "beforeCleanup": 2302
+        },
+        {
+          "kind": "duo",
+          "wallMs": 2611,
+          "bytes": 554731,
+          "prepare": 15,
+          "serverCheck": 40,
+          "chromeStart": 1479,
+          "sceneLoad": 620,
+          "capture": 200,
+          "beforeCleanup": 2355
+        }
+      ],
+      "peakRssMiB": 2594,
+      "sampledCpuSeconds": 6.64,
+      "peakProcesses": 20,
+      "observations": 13
+    },
+    {
+      "kinds": [
+        "single",
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 1974,
+          "bytes": 684198,
+          "prepare": 12,
+          "serverCheck": 37,
+          "chromeStart": 1042,
+          "sceneLoad": 576,
+          "capture": 168,
+          "beforeCleanup": 1837
+        },
+        {
+          "kind": "duo",
+          "wallMs": 2127,
+          "bytes": 554731,
+          "prepare": 15,
+          "serverCheck": 39,
+          "chromeStart": 1136,
+          "sceneLoad": 637,
+          "capture": 174,
+          "beforeCleanup": 2002
+        }
+      ],
+      "peakRssMiB": 2590,
+      "sampledCpuSeconds": 5.7,
+      "peakProcesses": 20,
+      "observations": 11
+    }
+  ]
+}

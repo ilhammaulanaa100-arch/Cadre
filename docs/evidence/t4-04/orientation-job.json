@@ -1,0 +1,95 @@
+{
+  "rendererRelease": "0.4.0",
+  "scene": {
+    "schemaVersion": 1,
+    "draftId": "018f47a4-7b5f-7d60-9f52-751d7c29a201",
+    "revision": 0,
+    "templateId": "single-device",
+    "templateVersion": "1.0.0",
+    "instances": [
+      {
+        "instanceId": "device-primary",
+        "deviceId": "iphone-18-pro-max",
+        "deviceVersion": "1.2.0",
+        "materialVariantId": "burgundy",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "quaternion": [
+            0.08022202088669048,
+            -0.23745951986526342,
+            -0.06751014475544606,
+            0.9657224156792222
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "screen": {
+          "surfaceId": "main-screen",
+          "imageRef": {
+            "kind": "local",
+            "blobId": "screen-9899689d-66dc-437a-8b3b-5fc55c7c9174"
+          },
+          "fit": "fit",
+          "cropRect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "paddingColor": "#101116"
+        }
+      }
+    ],
+    "camera": {
+      "presetId": "editor-front",
+      "projection": "perspective",
+      "position": [
+        0,
+        0,
+        0.36
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "fovDegrees": 32
+    },
+    "appearance": {
+      "background": {
+        "kind": "linear-gradient",
+        "from": "#f8e4d7",
+        "to": "#d4d6f2",
+        "angleDegrees": 135
+      },
+      "lightingPresetId": "studio-soft",
+      "lightingPresetVersion": "1.0.0",
+      "shadow": {
+        "presetId": "soft",
+        "opacity": 0.45
+      }
+    },
+    "motion": {
+      "presetId": "none",
+      "presetVersion": 1,
+      "durationSeconds": 4,
+      "amplitudeDegrees": 0,
+      "direction": "clockwise"
+    },
+    "frame": {
+      "playheadSeconds": 0
+    }
+  },
+  "images": {
+    "screen-9899689d-66dc-437a-8b3b-5fc55c7c9174": "docs/evidence/t4-04/orientation-canonical.png"
+  },
+  "width": 1200,
+  "height": 1200
+}

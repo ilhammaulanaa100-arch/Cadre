@@ -1,0 +1,24 @@
+{
+  "rendererRelease": "0.4.0",
+  "colorPipeline": "chromium-srgb-canvas-v1",
+  "assets": {
+    "iphone-18-pro-max": {
+      "version": "1.2.0",
+      "path": "assets/devices/iphone-18-pro-max/iphone-18-pro-max.glb",
+      "sha256": "dca10b7635b3349c41c8679c76adc1baa1302bb55c3510824a8f06e3854c3dff",
+      "previewPath": "assets/devices/iphone-18-pro-max/iphone-18-pro-max-proxy.glb",
+      "previewSha256": "68332b5a5ef12aa479819a9704e6554307a8c940581e57d662c33c31a647ec5b",
+      "renderPath": "/internal/render/assets/iphone-18-pro-max"
+    },
+    "tablet-dev": {
+      "version": "0.1.0",
+      "path": "assets/fixtures/models/tablet-dev.glb",
+      "sha256": "8dcea638107fbce9b63c0f5c86ac95e6f717f081cd5e4d99ddc11e08cf02622e"
+    },
+    "laptop-dev": {
+      "version": "0.1.0",
+      "path": "assets/fixtures/models/laptop-dev.glb",
+      "sha256": "dedb374cc465da8a5de4f4f97bb302fd88e31384dadb4b6f4b737f97736ec4a5"
+    }
+  }
+}

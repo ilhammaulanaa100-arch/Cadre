@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "geometry": {
+    ".topbar": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 64
+    },
+    ".library": {
+      "x": 16,
+      "y": 83,
+      "width": 280,
+      "height": 999
+    },
+    ".inspector": {
+      "x": 1144,
+      "y": 83,
+      "width": 280,
+      "height": 1027
+    },
+    ".artboard": {
+      "x": 320,
+      "y": 225,
+      "width": 800,
+      "height": 450
+    }
+  },
+  "assets": [
+    {
+      "src": "/ui/cadre/cadre.svg",
+      "loaded": true,
+      "width": 86.734375,
+      "height": 19.609375
+    },
+    {
+      "src": "/ui/cadre/device-burgundy.png",
+      "loaded": true,
+      "width": 28,
+      "height": 34
+    },
+    {
+      "src": "/ui/cadre/chevron.svg",
+      "loaded": true,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "/ui/cadre/device-burgundy.png",
+      "loaded": true,
+      "width": 28,
+      "height": 34
+    },
+    {
+      "src": "/ui/cadre/light-halo.svg",
+      "loaded": true,
+      "width": 56,
+      "height": 56
+    },
+    {
+      "src": "/ui/cadre/sun.svg",
+      "loaded": true,
+      "width": 11,
+      "height": 11
+    },
+    {
+      "src": "/ui/cadre/transform.svg",
+      "loaded": true,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "src": "/ui/cadre/animate.svg",
+      "loaded": true,
+      "width": 21.328125,
+      "height": 21.328125
+    },
+    {
+      "src": "/ui/cadre/zoom-line-v.svg",
+      "loaded": true,
+      "width": 1,
+      "height": 147
+    },
+    {
+      "src": "/ui/cadre/zoom-line-h.svg",
+      "loaded": true,
+      "width": 256,
+      "height": 1
+    },
+    {
+      "src": "/ui/cadre/zoom-mask.svg",
+      "loaded": true,
+      "width": 256,
+      "height": 148
+    },
+    {
+      "src": "/ui/cadre/zoom-point.svg",
+      "loaded": true,
+      "width": 8,
+      "height": 8
+    }
+  ],
+  "checks": [
+    "Figma layout geometry and original font/assets",
+    "empty state and persistence",
+    "all four finishes",
+    "eight image-only preset renders",
+    "drag rotates",
+    "Command-drag moves without rotating",
+    "reset pose",
+    "scale",
+    "media upload",
+    "animate view and playback",
+    "PNG export 1920 × 1080",
+    "project save and reopen",
+    "900px desktop timeline",
+    "mobile layout"
+  ]
+}

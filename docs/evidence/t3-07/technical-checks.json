@@ -1,0 +1,99 @@
+{
+  "environment": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M2",
+    "totalMemoryBytes": 8589934592,
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "viewport": "1440x960",
+    "build": "Next.js production",
+    "sampleCount": 1
+  },
+  "initialReadyMs": 1540,
+  "assetBytes": {
+    "modelGlb": 4442824,
+    "defaultScreenshot": 1260612
+  },
+  "baselineMemory": {
+    "jsHeapUsedBytes": 9597152,
+    "domNodes": 679,
+    "documents": 1
+  },
+  "checks": [
+    {
+      "scenario": "existing dark fixture, portrait screenshot",
+      "png": {
+        "file": "dark-fixture.png",
+        "width": 1200,
+        "height": 1200,
+        "bytes": 1188236,
+        "sha256": "9d7842e63bca536f03c2594f7dbc624c9c628af8f546c9e6bd774465c1bfbc8d",
+        "captureMs": 51
+      },
+      "memory": {
+        "jsHeapUsedBytes": 9669932,
+        "domNodes": 679,
+        "documents": 1
+      }
+    },
+    {
+      "scenario": "synthetic light portrait with small text",
+      "png": {
+        "file": "light-portrait.png",
+        "width": 1200,
+        "height": 1200,
+        "bytes": 797227,
+        "sha256": "312bf03d63cba6de59010ee12a73d136f41a455b43e64dd80f9b9e05e646dae8",
+        "captureMs": 40
+      },
+      "memory": {
+        "jsHeapUsedBytes": 9854424,
+        "domNodes": 682,
+        "documents": 1
+      }
+    },
+    {
+      "scenario": "synthetic dark portrait with dense text",
+      "png": {
+        "file": "dark-dense.png",
+        "width": 1200,
+        "height": 1200,
+        "bytes": 790496,
+        "sha256": "445f14467667878aef34b30fb43e99cc0530d257bc8fc8d762d980756bf36a68",
+        "captureMs": 50
+      },
+      "memory": {
+        "jsHeapUsedBytes": 10025372,
+        "domNodes": 682,
+        "documents": 1
+      }
+    },
+    {
+      "scenario": "synthetic landscape screenshot fitted to phone, 16:9 output",
+      "png": {
+        "file": "landscape-fit.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 1091197,
+        "sha256": "237da1b4ed4e6cd94b9f5183a5eefb72c88c49ad0cc4946f3d5ef6cedbb8a5aa",
+        "captureMs": 62
+      },
+      "memory": {
+        "jsHeapUsedBytes": 10270776,
+        "domNodes": 673,
+        "documents": 1
+      }
+    }
+  ],
+  "finalMemory": {
+    "jsHeapUsedBytes": 10331760,
+    "domNodes": 674,
+    "documents": 1
+  },
+  "downloadedPngMatchesCaptured": true,
+  "caveats": [
+    "Synthetic UI images are technical edge cases, not real user screenshots.",
+    "JS heap metrics exclude GPU memory and other Chrome processes.",
+    "Headless Chrome timings on one machine are not user-facing performance targets."
+  ]
+}

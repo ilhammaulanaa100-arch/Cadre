@@ -1,0 +1,30 @@
+{
+  "name": "@mockup-3d/render-scene",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mockup-3d/contracts": "workspace:*",
+    "@mockup-3d/scene-domain": "workspace:*",
+    "@react-three/fiber": "9.8.0",
+    "three": "0.186.0"
+  },
+  "peerDependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

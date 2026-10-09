@@ -1,0 +1,93 @@
+{
+  "rendererRelease": "0.4.0",
+  "scene": {
+    "schemaVersion": 1,
+    "draftId": "018f47a4-7b5f-7d60-9f52-751d7c29a201",
+    "revision": 0,
+    "templateId": "single-device",
+    "templateVersion": "1.0.0",
+    "instances": [
+      {
+        "instanceId": "device-primary",
+        "deviceId": "iphone-18-pro-max",
+        "deviceVersion": "1.2.0",
+        "materialVariantId": "burgundy",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "screen": {
+          "surfaceId": "main-screen",
+          "imageRef": {
+            "kind": "local",
+            "blobId": "fixture-screen-main"
+          },
+          "fit": "fill",
+          "cropRect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "paddingColor": "#101116"
+        }
+      }
+    ],
+    "camera": {
+      "presetId": "editor-front",
+      "projection": "perspective",
+      "position": [
+        0,
+        0,
+        0.36
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "fovDegrees": 32
+    },
+    "appearance": {
+      "background": {
+        "kind": "solid",
+        "color": "#ececf1"
+      },
+      "lightingPresetId": "studio-soft",
+      "lightingPresetVersion": "1.0.0",
+      "shadow": {
+        "presetId": "soft",
+        "opacity": 0.45
+      }
+    },
+    "motion": {
+      "presetId": "none",
+      "presetVersion": 1,
+      "durationSeconds": 4,
+      "amplitudeDegrees": 0,
+      "direction": "clockwise"
+    },
+    "frame": {
+      "playheadSeconds": 0
+    }
+  },
+  "images": {
+    "fixture-screen-main": "assets/fixtures/screens/dashboard-dark.png"
+  },
+  "width": 1200,
+  "height": 1200
+}

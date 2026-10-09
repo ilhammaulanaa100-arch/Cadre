@@ -1,0 +1,226 @@
+{
+  "measuredAt": "2026-09-30T04:56:46.737Z",
+  "host": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpuName": "Apple M2",
+    "logicalCores": 8,
+    "memoryGiB": 8,
+    "node": "v26.0.0",
+    "chrome": "Google Chrome 154.0.8037.92"
+  },
+  "rendererRelease": "0.4.0",
+  "conditions": "Next production build on loopback; Chrome backend swiftshader; cold Chromium process and profile for each job; PNG 1200x1200; output cache may warm; RSS sums descendant processes and double-counts shared pages; web server is excluded.",
+  "runs": [
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 11813,
+          "bytes": 686218,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 14,
+          "serverCheck": 34,
+          "chromeStart": 2156,
+          "sceneLoad": 2676,
+          "capture": 6274,
+          "beforeCleanup": 11161
+        }
+      ],
+      "peakRssMiB": 1388,
+      "sampledCpuSeconds": 32.94,
+      "peakProcesses": 13,
+      "observations": 68
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 11795,
+          "bytes": 686218,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 11,
+          "serverCheck": 45,
+          "chromeStart": 1284,
+          "sceneLoad": 3341,
+          "capture": 5789,
+          "beforeCleanup": 10477
+        }
+      ],
+      "peakRssMiB": 1349,
+      "sampledCpuSeconds": 33.53,
+      "peakProcesses": 13,
+      "observations": 65
+    },
+    {
+      "kinds": [
+        "single"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 12061,
+          "bytes": 686218,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 13,
+          "serverCheck": 48,
+          "chromeStart": 1720,
+          "sceneLoad": 3067,
+          "capture": 6267,
+          "beforeCleanup": 11127
+        }
+      ],
+      "peakRssMiB": 1472,
+      "sampledCpuSeconds": 33.37,
+      "peakProcesses": 13,
+      "observations": 68
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 11051,
+          "bytes": 560564,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 16,
+          "serverCheck": 52,
+          "chromeStart": 1247,
+          "sceneLoad": 3056,
+          "capture": 5243,
+          "beforeCleanup": 9617
+        }
+      ],
+      "peakRssMiB": 1540,
+      "sampledCpuSeconds": 33.37,
+      "peakProcesses": 13,
+      "observations": 63
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 11790,
+          "bytes": 560564,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 15,
+          "serverCheck": 48,
+          "chromeStart": 1245,
+          "sceneLoad": 3088,
+          "capture": 5959,
+          "beforeCleanup": 10365
+        }
+      ],
+      "peakRssMiB": 1554,
+      "sampledCpuSeconds": 35.19,
+      "peakProcesses": 13,
+      "observations": 68
+    },
+    {
+      "kinds": [
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "duo",
+          "wallMs": 11971,
+          "bytes": 560564,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 18,
+          "serverCheck": 51,
+          "chromeStart": 1477,
+          "sceneLoad": 3032,
+          "capture": 6225,
+          "beforeCleanup": 10810
+        }
+      ],
+      "peakRssMiB": 1616,
+      "sampledCpuSeconds": 35.74,
+      "peakProcesses": 13,
+      "observations": 68
+    },
+    {
+      "kinds": [
+        "single",
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 15016,
+          "bytes": 686218,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 11,
+          "serverCheck": 51,
+          "chromeStart": 1965,
+          "sceneLoad": 3564,
+          "capture": 6764,
+          "beforeCleanup": 12360
+        },
+        {
+          "kind": "duo",
+          "wallMs": 15756,
+          "bytes": 560564,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 15,
+          "serverCheck": 47,
+          "chromeStart": 1967,
+          "sceneLoad": 3899,
+          "capture": 7964,
+          "beforeCleanup": 13898
+        }
+      ],
+      "peakRssMiB": 2675,
+      "sampledCpuSeconds": 61.86,
+      "peakProcesses": 25,
+      "observations": 85
+    },
+    {
+      "kinds": [
+        "single",
+        "duo"
+      ],
+      "results": [
+        {
+          "kind": "single",
+          "wallMs": 14245,
+          "bytes": 686218,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 18,
+          "serverCheck": 54,
+          "chromeStart": 1813,
+          "sceneLoad": 3870,
+          "capture": 6429,
+          "beforeCleanup": 12186
+        },
+        {
+          "kind": "duo",
+          "wallMs": 15062,
+          "bytes": 560564,
+          "actualRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "prepare": 21,
+          "serverCheck": 51,
+          "chromeStart": 1807,
+          "sceneLoad": 3934,
+          "capture": 7076,
+          "beforeCleanup": 12892
+        }
+      ],
+      "peakRssMiB": 2707,
+      "sampledCpuSeconds": 61.65,
+      "peakProcesses": 26,
+      "observations": 83
+    }
+  ]
+}

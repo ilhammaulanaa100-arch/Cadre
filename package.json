@@ -1,0 +1,23 @@
+{
+  "name": "mockup-3d-device",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24.19.0 <27",
+    "pnpm": "11.19.0"
+  },
+  "scripts": {
+    "build": "pnpm --recursive --if-present build",
+    "build:mvp": "pnpm --filter @mockup-3d/mvp build",
+    "dev": "pnpm --filter @mockup-3d/web dev",
+    "dev:mvp": "pnpm --filter @mockup-3d/mvp dev",
+    "fixtures:sync": "node scripts/sync-fixtures.mjs",
+    "test": "pnpm --recursive --if-present test",
+    "typecheck": "pnpm --recursive --if-present typecheck"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.0.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial renderer ready",
+    "upload preserves transform",
+    "landscape crop edges change output",
+    "fit mapping",
+    "invalid and corrupt uploads preserve image",
+    "three PNG aspect ratios",
+    "manual 3/6-digit hex background",
+    "invalid hex rollback",
+    "trackpad wheel updates scale",
+    "scale clamps to inspector range",
+    "pointer rotate",
+    "pointer move",
+    "reset",
+    "export dialog",
+    "downloaded PNG",
+    "preview/export aspect parity",
+    "narrow layout"
+  ],
+  "initialHash": "15e3c0735b18125a6c11fb611fb88ae2332fbd38aaf3608fdc4e2db224b1188c"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "four distinct rendered finishes",
+    "front/back/left/right presets",
+    "initial renderer ready",
+    "upload preserves pose and position",
+    "landscape crop edges change output",
+    "fit mapping",
+    "invalid and corrupt uploads preserve image",
+    "three PNG aspect ratios",
+    "reset",
+    "turntable scrub changes frame",
+    "absolute playhead is deterministic",
+    "play advances absolute time",
+    "pose edit pauses playback",
+    "export dialog preserves selected frame",
+    "downloaded PNG matches selected frame",
+    "preview/export aspect parity",
+    "narrow layout"
+  ],
+  "initialHash": "9d7842e63bca536f03c2594f7dbc624c9c628af8f546c9e6bd774465c1bfbc8d",
+  "turntableStartHash": "2e72744b018e7862b6982df6a627860001818e11f84733a7a907cf39ff8d01ff",
+  "turntableMidHash": "67a72384e1238c30aa961d64277d081f8bcaa410f15870b4398e4b98912b59c9"
+}

@@ -1,0 +1,54 @@
+{
+  "sha256": "dca10b7635b3349c41c8679c76adc1baa1302bb55c3510824a8f06e3854c3dff",
+  "bytes": 4442824,
+  "palettes": {
+    "burgundy": {
+      "FrameMetal": "#63333f",
+      "BackGlass": "#48232e",
+      "CameraDeck": "#542a36",
+      "LensRing": "#72424e",
+      "AppleInlay": "#603441",
+      "PanelSeam": "#3b2029",
+      "AntennaPolymer": "#3a2c31"
+    },
+    "glacier-blue": {
+      "FrameMetal": "#8c9eaf",
+      "BackGlass": "#a5b3c2",
+      "CameraDeck": "#91a2b3",
+      "LensRing": "#a7b7c7",
+      "AppleInlay": "#718294",
+      "PanelSeam": "#728292",
+      "AntennaPolymer": "#71808f"
+    },
+    "silver": {
+      "FrameMetal": "#bfc2c4",
+      "BackGlass": "#d1d2d1",
+      "CameraDeck": "#bcbfbf",
+      "LensRing": "#d0d2d3",
+      "AppleInlay": "#939798",
+      "PanelSeam": "#939797",
+      "AntennaPolymer": "#9a9d9f"
+    },
+    "black": {
+      "FrameMetal": "#292a2c",
+      "BackGlass": "#1c1d1f",
+      "CameraDeck": "#242527",
+      "LensRing": "#3a3b3d",
+      "AppleInlay": "#37383a",
+      "PanelSeam": "#131416",
+      "AntennaPolymer": "#191a1c"
+    }
+  },
+  "screenPixels": [
+    1320,
+    2868
+  ],
+  "bodyMeters": [
+    0.078,
+    0.1634,
+    0.00875
+  ],
+  "meshCount": 90,
+  "revision": "official-finishes-v3",
+  "finishSource": "https://www.apple.com/id/iphone-18-pro/"
+}
