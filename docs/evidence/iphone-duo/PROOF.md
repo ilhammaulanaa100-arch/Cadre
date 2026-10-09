@@ -17,8 +17,14 @@ Blender 5.2.2 regenerated the editable `.blend`, five proof renders, and seven a
 - TypeScript checks passed for contracts, scene-domain, catalog, render-scene, web, and MVP.
 - Static MVP production build succeeded and generated `/` plus `/_not-found`.
 - Runtime static output contains the new GLB, previews, and starter plates; it does not contain the removed environment map or raw viewer downloads.
-- Headless Chrome and the connected Chrome session could load the page, but WebGL context creation failed in this Mac session before the preview could initialize. Browser interaction and PNG export were therefore not verified in this revision. The earlier browser proof applies to the previous asset only.
+- The first browser attempt could load the page but could not create a WebGL context in the connected Chrome session. A later headless Chrome run on the host with software WebGL completed the current asset check below.
+
+## Browser QA — 9 October 2026
+
+- `FORMA_TEST_PORT=3030 node scripts/check-duo-editor.mjs` passed against a freshly built static MVP served locally. The script now starts from the empty editor, chooses Duo, checks closed/open controls, exports three real 1920 × 1080 PNGs, uploads a different image to the inner screen and exports it, reloads the Duo draft, and switches back to the single iPhone.
+- [Open](qa-open-export.png), [seated](qa-seated-export.png), [closed](qa-closed-export.png), and [custom inner screen](qa-custom-inner-export.png) are actual browser downloads, not Blender renders. [Export metadata and hashes](qa-exports.json) confirm distinct outputs. Editor screenshots for the three poses are also saved here.
+- Visual inspection found that the initial straight-on seated view showed the back of one half and overly blurred both screens. The editor now angles the camera during the fold, while the screen shader keeps its blur near the crease. The final [seated export](qa-seated-export.png) shows both panels and readable design details. Open and closed exports remain readable, and the custom inner image spans the connected display. A narrow center seam remains visible in the open pose.
 
 ## Remaining check
 
-On a browser with WebGL available, verify closed, midway, and open poses; separate outer/inner uploads; draft reload; and a selected-frame PNG. Inspect the PNG for seams and clipping before publication.
+Review the center seam at final visual polish, then test real screenshots and exports on Safari, Firefox, and at least one physical mobile device. A beta user should complete the flow without guidance before public release.

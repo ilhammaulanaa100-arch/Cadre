@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "exports": [
+    {
+      "pose": "open",
+      "angle": 180,
+      "bytes": 666006,
+      "sha256": "7c4a10728cab14f8f3756e9afc0f1f011ea827e86145baa9719bdcdd1ffdb211"
+    },
+    {
+      "pose": "seated",
+      "angle": 95,
+      "bytes": 653312,
+      "sha256": "326fea305e6f748161d48ddd39d7d3ce2ae7fa12bb0458fae30d7aafe1c070c4"
+    },
+    {
+      "pose": "closed",
+      "angle": 0,
+      "bytes": 701497,
+      "sha256": "30c8ec7cce621c47fde14e2cd252487e7cee2f8711f5779f7d25fb5eb594cc7e"
+    }
+  ],
+  "customInnerHash": "0e1cdfc3b02ed1644e5dfb1e34dc1432624b8b3e4cf37e1716e68c3a3cd06967"
+}

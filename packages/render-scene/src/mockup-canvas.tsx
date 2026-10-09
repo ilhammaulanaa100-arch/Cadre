@@ -345,7 +345,7 @@ function FixtureModel({ modelUrl, screenNodeName = "Screen", materialPalette, sc
           const amount = { value: Math.pow(Math.max(0, Math.sin(Math.PI * foldAngleDegrees / 180)), 0.75) };
           blurUniforms.current.push(amount);
           const original = bindings[child.name]!;
-          const levels = [0.008, 0.017, 0.026].map(radius => {
+          const levels = [0.001, 0.002, 0.004].map(radius => {
             const canvas = window.document.createElement("canvas");
             canvas.width = Math.min(1024, original.width);
             canvas.height = Math.round(canvas.width * original.height / original.width);
@@ -363,13 +363,15 @@ function FixtureModel({ modelUrl, screenNodeName = "Screen", materialPalette, sc
             shader.fragmentShader = "uniform float duoFoldBlur; uniform sampler2D duoBlur1; uniform sampler2D duoBlur2; uniform sampler2D duoBlur3;\n" + shader.fragmentShader;
             shader.fragmentShader = shader.fragmentShader.replace("#include <map_fragment>", `
               #ifdef USE_MAP
-                float level = duoFoldBlur * 3.0;
+                float crease = 1.0 - smoothstep(0.0, 0.12, abs(vMapUv.x - 0.5));
+                float localBlur = duoFoldBlur * crease;
+                float level = localBlur * 3.0;
                 vec4 duoColor;
                 if (level < 1.0) duoColor = mix(texture2D(map, vMapUv), texture2D(duoBlur1, vMapUv), level);
                 else if (level < 2.0) duoColor = mix(texture2D(duoBlur1, vMapUv), texture2D(duoBlur2, vMapUv), level - 1.0);
                 else duoColor = mix(texture2D(duoBlur2, vMapUv), texture2D(duoBlur3, vMapUv), level - 2.0);
                 float edge = smoothstep(0.0, 0.10, vMapUv.y) * smoothstep(0.0, 0.10, 1.0 - vMapUv.y);
-                float shade = mix(1.0, ${child.name === "ScreenOuter" ? "0.72" : "0.48"} * mix(0.22, 1.0, edge), duoFoldBlur);
+                float shade = mix(1.0, ${child.name === "ScreenOuter" ? "0.90" : "0.85"} * mix(0.50, 1.0, edge), localBlur);
                 diffuseColor *= vec4(duoColor.rgb * shade, 1.0);
               #endif
             `);

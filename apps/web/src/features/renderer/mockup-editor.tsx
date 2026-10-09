@@ -420,10 +420,11 @@ export function MockupEditor() {
 
   const scene = useMemo<SceneDocument>(() => {
     const base = structuredClone(iphone18ProMaxScene);
+    const foldReveal = Math.sin(duoFoldAngle * Math.PI / 180);
     base.motion = { ...base.motion, presetId: motionPreset, durationSeconds: duration, amplitudeDegrees: motionPreset === "turntable" ? 360 : 0 };
     base.frame.playheadSeconds = playhead;
     base.templateId = mockupChoice === "iphone-duo" ? "foldable-device" : template === "duo" ? "iphone-duo" : "single-device";
-    base.camera = { presetId: "editor-front", projection: "perspective", position: mockupChoice === "iphone-duo" ? [0, 0, 0.28 + 0.08 * Math.sin(duoFoldAngle * Math.PI / 360)] : template === "duo" ? [0, 0, 0.43] : deviceId === "iphone-18-pro-max" ? [0, 0, 0.36] : deviceId === "tablet-dev" ? [0, 0, 0.53] : [0, 0, 0.95], target: deviceId === "laptop-dev" && template === "single" ? [0, -0.025, 0.08] : [0, 0, 0], fovDegrees: 32 };
+    base.camera = { presetId: "editor-front", projection: "perspective", position: mockupChoice === "iphone-duo" ? [0.29 * foldReveal, 0, 0.28 + 0.08 * Math.sin(duoFoldAngle * Math.PI / 360) - 0.17 * foldReveal] : template === "duo" ? [0, 0, 0.43] : deviceId === "iphone-18-pro-max" ? [0, 0, 0.36] : deviceId === "tablet-dev" ? [0, 0, 0.53] : [0, 0, 0.95], target: deviceId === "laptop-dev" && template === "single" ? [0, -0.025, 0.08] : [0, 0, 0], fovDegrees: 32 };
     base.appearance.background = background;
     base.appearance.shadow = template === "duo" ? { presetId: "none", opacity: 0, lightPosition } : { presetId: shadowPreset, opacity: shadowOpacity / 100, lightPosition };
     base.instances = visibleSlots.map((slot, index) => {
